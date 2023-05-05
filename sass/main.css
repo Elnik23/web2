@@ -29,37 +29,39 @@ body .header1 .head2 a:hover {
   border-bottom: 4px solid rgb(80, 148, 242);
   padding-bottom: 15px;
 }
-body .bg_img {
+body .jc {
   background-image: url(../img/Group4.png);
-  background-position: 0 0;
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
+  background-size: cover;
+  min-height: 400px;
 }
-body .bg_img .main2 img {
-  cursor: pointer;
-}
-body .bg_img .main2 {
-  color: #fff;
+body .jc .carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 25%;
+  left: 45%;
   text-align: left;
-  align-items: center;
-}
-body .bg_img .main2 span {
-  font-size: 22px;
-}
-body .bg_img .main2 p {
-  font-size: 44px;
-  font-family: myriad-pro, sans-serif;
-  font-weight: 100;
-  line-height: 1.01;
-}
-body .bg_img .main2 button {
-  background-color: #5094f2;
-  border: none;
+  z-index: 10;
   color: #fff;
-  font-size: 22.35px;
-  line-height: 1.987;
-  font-family: StylusBT;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+body .jc .iphone {
+  width: 33%;
+}
+body .jc .carousel-control-prev-icon {
+  background-image: url("../img/_.png");
+  transform: rotate(180deg);
+}
+body .jc .carousel-control-next-icon {
+  background-image: url("../img/_.png");
+}
+body .jc .carousel-control-next {
+  right: -5%;
+}
+body .jc .carousel-control-prev {
+  left: -5%;
 }
 body .picture3 {
   text-align: center;
